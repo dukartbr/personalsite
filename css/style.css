@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --text-green: #00aa00;
+  --text-purple: #9600aa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #00aa00;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 1px 3px 3px #00aa00;
+}
+
+h2 {
+  color: #00aa00;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #00aa00;
+  text-decoration: none;
+}
+
+nav {
+  width: 80%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  color: #00aa00;
+  cursor: pointer;
+}
+
+.content-container {
+  width: 100%;
+  padding-top: 3rem;
+}
+.content-container h3 {
+  width: 250px;
+  color: #9600aa;
+  text-shadow: 1px 3px 3px #9600aa;
+  font-size: 2rem;
+}
+.content-container h4 {
+  margin-bottom: 0.5rem;
+}
+.content-container ul li {
+  list-style-type: square;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wb-body {
+  background-color: #111;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.cursor {
+  font-weight: 700;
+  animation: 1s blink step-end infinite;
+}
+
+.contact-button {
+  border: 2px solid #00aa00;
+  margin: auto;
+  margin-top: 2rem;
+  color: #00aa00;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  list-style-type: none;
+}
+
+.about-content ul {
+  display: flex;
+}
+.about-content ul li {
+  font-size: 2.5rem;
+  padding: 0 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #00aa00;
+}
+.about-content h4 {
+  margin-top: 2rem;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+    text-shadow: none;
+  }
+  50% {
+    color: #00aa00;
+    text-shadow: 1px 3px 3px #00aa00;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

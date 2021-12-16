@@ -1,0 +1,25 @@
+{
+  "name": "winbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukartbr/winbox.git"
+  },
+  "author": "Brady Dukart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukartbr/winbox/issues"
+  },
+  "homepage": "https://github.com/dukartbr/winbox#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
